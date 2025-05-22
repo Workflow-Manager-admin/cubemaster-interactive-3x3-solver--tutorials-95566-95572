@@ -74,7 +74,7 @@ body {
 }
 
 .subtitle {
-  color: var(--kavia-orange);
+  color: var(--secondary-color);
   font-weight: 500;
   font-size: 1.1rem;
 }
