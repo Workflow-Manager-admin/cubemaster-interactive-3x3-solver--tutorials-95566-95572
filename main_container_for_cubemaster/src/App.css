@@ -119,3 +119,145 @@ body {
   padding: 12px 24px;
   font-size: 1.1rem;
 }
+
+/* CubeMaster specific styles */
+.cube-master-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  padding-top: 80px;
+}
+
+.content-section {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+}
+
+/* Solver Section Styles */
+.solver-section {
+  width: 100%;
+}
+
+.solver-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .solver-content {
+    flex-direction: row;
+  }
+}
+
+.cube-visualization-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  min-height: 300px;
+  min-width: 300px;
+}
+
+.solving-steps {
+  flex: 1;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+}
+
+.step-indicator {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin-bottom: 10px;
+}
+
+.current-step {
+  margin-bottom: 20px;
+}
+
+.step-navigation {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+/* Tutorial Section Styles */
+.tutorial-section {
+  width: 100%;
+}
+
+.tutorial-selection {
+  margin-bottom: 30px;
+}
+
+.tutorial-list {
+  display: flex;
+  gap: 15px;
+  overflow-x: auto;
+  padding-bottom: 15px;
+}
+
+.tutorial-item {
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  min-width: 200px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.tutorial-item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.tutorial-item.selected {
+  background-color: rgba(232, 122, 65, 0.2);
+  border: 1px solid var(--secondary-color);
+}
+
+.tutorial-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .tutorial-content {
+    flex-direction: row;
+  }
+}
+
+.tutorial-steps {
+  flex: 1;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+}
+
+.current-tutorial-step {
+  margin-bottom: 20px;
+}
+
+/* Footer Styles */
+.footer {
+  margin-top: 40px;
+  padding: 20px 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.copyright {
+  margin-top: 5px;
+  font-size: 0.8rem;
+}
