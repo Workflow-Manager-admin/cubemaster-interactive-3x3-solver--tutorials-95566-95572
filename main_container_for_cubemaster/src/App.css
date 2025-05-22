@@ -30,7 +30,7 @@ body {
 }
 
 .navbar {
-  background-color: var(--kavia-dark);
+  background-color: var(--dark-bg);
   padding: 16px;
   display: flex;
   align-items: center;
