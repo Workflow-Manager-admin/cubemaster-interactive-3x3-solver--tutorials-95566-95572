@@ -52,7 +52,7 @@ body {
 }
 
 .logo-symbol {
-  color: var(--kavia-orange);
+  color: var(--secondary-color);
 }
 
 .container {
